@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../iris_google_efab_q3_add.srcs/sources_1/new/d_flip_flop_async.v" \
+"../../../../iris_google_efab_q3_add.srcs/sim_1/new/d_ff_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
