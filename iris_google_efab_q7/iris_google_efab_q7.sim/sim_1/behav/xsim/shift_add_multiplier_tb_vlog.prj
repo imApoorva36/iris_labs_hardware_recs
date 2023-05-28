@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../iris_google_efab_q7.srcs/sources_1/new/shift_add_multiplier.v" \
+"../../../../iris_google_efab_q7.srcs/sim_1/new/tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
